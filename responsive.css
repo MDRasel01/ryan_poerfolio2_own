@@ -1,0 +1,485 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (max-width: 1400px) {
+  /* CSS */
+  .eztra_bonche {
+      margin-left: 363px;
+  }
+  .full_site {
+      padding: 181px 46px 66px 29px;
+  }
+  .man_info {
+      height: 336px;
+      width: 361px;
+  }
+  .portfolio_info {
+      padding: 16px 78px;
+      margin-top: 287px;
+  }
+  ._details h5 {
+      font-size: 26px;
+  }
+  ._details p {
+      color: #b3b2b2;
+      font-size: 16px;
+  }
+  .social_media ul {
+      padding-left: 37px;
+      margin-top: 32px;
+      margin-bottom: 50px;
+  }
+  .table th button {
+      font-size: 16px;
+  }
+  .card-title {
+      margin-bottom: 0.5rem;
+      font-size: 18px;
+  }
+  .card-text:last-child {
+      margin-bottom: 0;
+      font-size: 15px;
+  }
+
+  /* resunme tab=========== */
+  .iconexperiene_text h4,
+  .iconeducation_text h4 {
+      font-size: 19px !important;
+  }
+  .resume_head {
+      position: absolute;
+      width: 46% !important;
+  }
+  /* resunme tab=========== */
+
+  /* workks tab=========== */
+
+  .filter-menu {
+      margin-bottom: 20px;
+      margin-left: 9.6rem !important;
+  }
+  .filter-menu li {
+      padding: 5px 16px;
+  }
+  /* workks tab=========== */
+
+  /* contact tab=========== */
+  .table th button {
+      font-size: 15px;
+  }
+  .table td {
+      color: #b3b2b2;
+      font-size: 16px;
+  }
+  /* contact tab=========== */
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (max-width: 1281px) {
+  /* CSS */
+
+  .full_site {
+      padding: 39px 46px 66px 0px;
+  }
+}
+@media (min-width: 1025px) and (max-width: 1280px) {
+  /* CSS */
+  .full_site {
+      padding: 55px 46px 32px 113px !important;
+  }
+  .eztra_bonche {
+      margin-left: 307px;
+  }
+  /* nmenu =========== */
+  .nav-pills .nav-link.active,
+  .nav-pills .show > .nav-link {
+      font-size: 17px;
+  }
+  /* nmenu =========== */
+
+  /* mewn_onfo========== */
+  .man_info {
+      height: 309px;
+      width: 307px;
+  }
+  .portfolio_info {
+      padding: 16px 67px !important;
+      margin-top: 282px !important;
+      top: -150px;
+  }
+  /* mewn_onfo========== */
+
+  /* home tab ==========  */
+  .mans_info {
+      padding: 11px 70px 1px 327px;
+      background-color: #191919;
+      border-start-end-radius: 42px;
+      border-start-start-radius: 42px;
+  }
+  .cv_dopwnload h4,
+  .profile_contact h3 {
+      /* padding: 16px 43px; */
+      font-size: 13px;
+      font-weight: bold;
+  }
+  .resume_head {
+      position: absolute;
+      width: 57% !important;
+  }
+  .full_site {
+      padding: 55px 46px 32px 29px;
+  }
+
+  .tab-content::-webkit-scrollbar {
+      width: 15px;
+  }
+  .filter-menu li {
+      padding: 5px 10px;
+      font-size: 15px;
+  }
+  .resume_head h1 {
+      font-size: 22px;
+  }
+  .filter-menu {
+      margin-bottom: 20px;
+      margin-left: 0rem !important;
+      display: flex;
+  }
+  .portfolio_details p {
+      font-size: 14px;
+  }
+  .moreinfo {
+      padding-right: 54px;
+  }
+  .gallery {
+      position: relative;
+      bottom: 0px;
+  }
+  .card-title {
+      font-size: 16px;
+  }
+  .card p {
+      font-size: 15px;
+  }
+  .card-text:last-child {
+      font-size: 13px;
+  }
+  .study button {
+      border: none;
+      background-color: transparent;
+      color: #aaa;
+      border: 1px solid #5a6366;
+  }
+  .iconexperiene_text h4,
+  .iconeducation_text h4 {
+      font-size: 18px !important;
+  }
+  .col-xl-4 {
+      flex: 0 0 auto;
+      width: 38.333% !important;
+  }
+  .card-body {
+      flex: 1 1 auto;
+      padding: 1rem 0rem;
+  }
+  .portfolio_info {
+      padding: 16px 67px !important;
+      margin-top: 282px !important;
+  }
+  /* gallery tab */
+  .resume_head {
+      position: absolute;
+      width: 85% !important;
+  }
+  .filter-menu li {
+      padding: 5px 10px;
+      font-size: 15px;
+      margin-top: 14px;
+  }
+  .filter-menu {
+      margin-bottom: 20px;
+      margin-left: 0rem !important;
+      display: flex;
+      padding-left: 0px;
+  }
+  .resume_head h1 {
+      font-size: 28px;
+  }
+  /* gallery tab */
+
+  /* home tab ==========  */
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  /* CSS */
+  .full_site {
+      padding: 32px 110px 66px 101px;
+  }
+  .mans_info {
+      padding: 583px 0px 0px 21px;
+      background-color: #191919;
+      border-start-end-radius: 42px;
+      border-start-start-radius: 42px;
+  }
+  .portfolio_info {
+      padding: 16px 78px;
+      margin-top: 318px !important;
+  }
+  .social_media ul {
+      padding-left: 148px;
+      margin-top: 32px;
+      margin-bottom: 50px;
+  }
+  .eztra_bonche {
+      margin-top: 586px;
+      margin-left: 18px;
+  }
+  .language {
+      margin-left: 151px;
+      padding-top: 10px;
+  }
+  .web_development,
+  .wordpress_design,
+  .speed_optimize,
+  .figma_html {
+      padding-left: 8.7rem;
+  }
+  .card i {
+      color: #09c5ff;
+      font-size: 61px;
+  }
+  .card-title {
+      margin-bottom: 0.5rem;
+      font-size: 21px;
+  }
+  .card-text:last-child {
+      margin-bottom: 0;
+      font-size: 16px;
+  }
+  /* resume ---------- */
+  .resume_head {
+      position: absolute;
+      width: 79% !important;
+  }
+  .pt-4 {
+      padding-top: 2.5rem !important;
+  }
+  .mans_info {
+      padding: 583px 0px 0px 21px;
+      background-color: #191919;
+      border-start-end-radius: 42px;
+      border-start-start-radius: 42px;
+  }
+  .man_info {
+      height: 412px;
+      width: 556px;
+  }
+  /* resume ---------- */
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  /* CSS */
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  /* CSS */
+  .nav-tabs .nav-link {
+      font-size: 17px;
+  }
+  .eztra_bonche {
+      margin-left: 10px;
+      margin-top: 604px;
+  }
+
+  .resume_head {
+      position: absolute;
+      width: 82% !important;
+      margin-left: 0px;
+  }
+  .eztra_bonche {
+      margin-left: -11px;
+      margin-top: 599px;
+  }
+  .filter-menu {
+      margin-bottom: 22px;
+      margin-left: 0rem !important;
+  }
+  .gallery {
+      position: relative;
+      bottom: 0px;
+  }
+  .filter-menu {
+      margin-bottom: 22px;
+      margin-left: -2rem !important;
+      display: flex;
+      margin-left: -2rem !important;
+  }
+  .filter-menu li {
+      padding: 5px 12px;
+      font-size: 13px;
+  }
+  .table th button {
+      font-size: 15px;
+      color: black;
+  }
+  .contact {
+      padding: 10px 0px 34px 1px;
+      background-color: #191919;
+      width: 130%;
+  }
+  .full_site {
+      padding: 39px 27px 66px 40px;
+  }
+  .nav-tabs .nav-item.show .nav-link,
+  .nav-tabs .nav-link.active {
+      font-size: 16px;
+      border-radius: 18px;
+  }
+  .nav-tabs {
+      margin-right: 52px;
+  }
+  .mans_info {
+      padding: 622px 29px 0px 37px;
+  }
+  .table th button {
+      font-size: 15px;
+      color: white;
+  }
+  .filter-item li {
+      padding: 0px;
+      /* float: right; */
+  }
+  .nav-tabs .nav-link:focus,
+  .nav-tabs .nav-link:hover {
+      border-color: #09c5ff #09c5ff #09c5ff;
+      isolation: isolate;
+      border-radius: 16px;
+  }
+  .sm_extra {
+      margin-top: 20px;
+  }
+  .d-flex {
+      display: block !important;
+  }
+  .extra_spce button {
+      margin-left: 0px !important;
+  }
+  .contact_input input {
+      width: 342px;
+  }
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  /* CSS */
+  .full_site {
+      padding: 0px 0px 20px 0px;
+  }
+
+  .nav-tabs .nav-link {
+      font-size: 15px;
+  }
+  .nav-tabs {
+      position: fixed;
+      z-index: 100000;
+      background-color: black;
+      margin: 0px !important;
+  }
+  .nav-tabs .nav-item.show .nav-link,
+  .nav-tabs .nav-link.active {
+      font-size: 11px;
+  }
+  .man_info {
+      background-color: black;
+      border-start-end-radius: 0px;
+      border-start-start-radius: 0px;
+      margin-top: 43px;
+  }
+  .mans_info {
+      padding: 645px 15px 1px 21px;
+      background-color: #191919;
+      border-start-end-radius: 42px;
+      border-start-start-radius: 42px;
+      text-align: justify;
+  }
+
+  .language {
+      margin-left: 7px;
+      padding-top: 10px;
+  }
+  .web_development,
+  .wordpress_design,
+  .speed_optimize,
+  .figma_html {
+      padding-left: 0rem;
+  }
+  .sm_extra {
+      margin-top: 69px;
+  }
+  .resume_head {
+      position: absolute;
+      width: 100% !important;
+  }
+  .filter-menu {
+      margin-bottom: 20px;
+      margin-left: 0rem !important;
+      margin-top: 50px;
+      padding-left: 0px;
+  }
+  .filter-menu li {
+      padding: 5px 32px;
+      margin-bottom: 10px;
+  }
+  .portfolio_info {
+      padding: 16px 58px 14px 40px !important;
+      margin-top: 260px;
+  }
+  ._details h5 {
+      text-transform: capitalize;
+      font-size: 33px;
+      padding-top: 42px;
+      color: #b3b2b2;
+  }
+  .sm_spance ul {
+      padding-left: 71px;
+  }
+  .social_media ul {
+      padding-left: 89px;
+      margin-top: 32px;
+      margin-bottom: 50px;
+  }
+  .man_info {
+      background-color: black;
+      border-start-end-radius: 0px;
+      border-start-start-radius: 0px;
+      margin-top: 13px;
+  }
+  .nav-link.active {
+      padding-top: 14px;
+  }
+}
